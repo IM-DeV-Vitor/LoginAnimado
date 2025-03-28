@@ -1,7 +1,7 @@
 import Inputs from "./Inputs"
 import Botao from "./Botao"
 import './App.css'
-import codeImg from "../../../Assets/code-img.png"
+import codeImg from "../assets/code-img.png"
 
 
 function App() {
