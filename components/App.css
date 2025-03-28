@@ -27,7 +27,7 @@
 
     to {
         opacity: 1;
-        left: 20%;
+        left: 18%;
     }
 }
 
@@ -131,15 +131,15 @@ img {
 
 .bem {
     position: absolute;
-    left: 20%;
-    top: 20%;
+    left: 18%;
+    top: -25%;
     display: none;
 }
 
 .vindo {
     position: absolute;
     left: 65%;
-    top: 20%;
+    top: -25%;
     display: none;
     
 }

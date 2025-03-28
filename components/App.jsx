@@ -16,17 +16,21 @@ function App() {
 
       imagemAnimada.classList.add("animado")
 
-      infos.style.display = "block";
+      infos.style.display = "block"
       infos.classList.add("animacaoForm")
-
-
-
+      
+      setTimeout(() =>       
+      {
       textoBem.classList.add("bemAnimado")
-      textoVindo.classList.add("vindoAnimado")
+      textoVindo.classList.add("vindoAnimado")}, 1000
+    )
+
+
+
     }}>      
-        <h2 className="bem" id="bem">Bem</h2>
+        <h1 className="bem" id="bem">Bem</h1>
           <img src={codeImg} alt="ImagemCodigo" />
-        <h2 className="vindo" id="vindo">Vindo</h2>
+        <h1 className="vindo" id="vindo">Vindo</h1>
 
     </div>
       <div className="infos" id="infos">
